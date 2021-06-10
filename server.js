@@ -25,7 +25,9 @@ const db = mysql.createConnection ({
 //        message: 'Hello World!'
 //     })
 // })
-
+db.query(`SELECT * FROM candidates`, (err, rows) => {
+    console.log(rows);
+  });
 
 //Default response for any other req (not found)
 app.use((req,res) => {
