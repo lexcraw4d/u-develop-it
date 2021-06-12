@@ -1,28 +1,28 @@
 {
-  "name": "u-develop-it",
+  "name": "vote-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Back-end APIs for a voting app.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5"
+  },
   "scripts": {
     "test": "jest",
-    "start":"node server.js"
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lexcraw4d/u-develop-it.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/lexcraw4d/u-develop-it/issues"
   },
-  "homepage": "https://github.com/lexcraw4d/u-develop-it#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mysql2": "^2.2.5"
-  },
-  "devDependencies": {
-    "jest": "^27.0.4"
-  }
+  "homepage": "https://github.com/lexcraw4d/u-develop-it#readme"
 }

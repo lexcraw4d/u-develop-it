@@ -2,11 +2,10 @@ DROP TABLE IF EXISTS candidates;
 DROP TABLE IF EXISTS parties;
 DROP TABLE IF EXISTS voters;
 
-
 CREATE TABLE parties (
-    id INTEGER AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(50) NOT NULL,
-    description TEXT
+  id INTEGER AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  description TEXT
 );
 
 CREATE TABLE candidates (
